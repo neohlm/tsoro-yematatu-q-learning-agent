@@ -1,5 +1,4 @@
 # Tsoro Yematatu — Q-Learning Agent
-### ITRI 616 Mini-Project
 
 ---
 
@@ -25,8 +24,6 @@ Install the only required library (matplotlib for graphs):
 pip install matplotlib
 ```
 
-No other libraries needed — pure Python.
-
 ---
 
 ## How to Run
@@ -41,14 +38,6 @@ Training takes roughly **1–3 minutes** on a standard laptop.
 Output:
 - `q_table.pkl` — the learned Q-table
 - `training_log.pkl` — win/draw/loss rates per checkpoint
-
-Example console output:
-```
-Episode  500 | Win: 54.5% | Draw: 3.0% | Loss: 42.5% | ε=0.779
-Episode 1000 | Win: 61.0% | Draw: 4.5% | Loss: 34.5% | ε=0.607
-Episode 5000 | Win: 78.5% | Draw: 6.0% | Loss: 15.5% | ε=0.082
-Episode 10000| Win: 85.0% | Draw: 5.0% | Loss: 10.0% | ε=0.050
-```
 
 ### Step 2 — Generate graphs
 ```bash
